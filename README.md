@@ -141,10 +141,5 @@ Two statistical tests to validate findings beyond visual patterns:
 3. **Launch WhatsApp re-engagement campaign** — inactive resellers churn 7.8% more; a targeted WhatsApp campaign could recover a meaningful share
 4. **Win-back the 5,149 high-value dormant resellers** — they earned above-average GMV and represent ₹186 Cr annual recovery opportunity at 25% reactivation rate
 
----
-
-**SQL queries:** Import `meesho_resellers.csv` into SQL Server using SSMS Import Flat File wizard, then run queries from `sql_queries/` folder in order.
-
-**Dashboard:** Open `dashboard/meesho_churn_dashboard.pbix` in Power BI Desktop.
 
 
