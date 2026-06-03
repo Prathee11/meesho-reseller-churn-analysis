@@ -1,7 +1,5 @@
 # Meesho Reseller Churn Intelligence
 
-![Dashboard Preview](dashboard/dashboard_screenshot.png)
-
 ## Business Context
 
 Meesho operates one of India's largest social commerce platforms with 13M+ resellers — predominantly homemakers and micro-entrepreneurs in Tier 2 and Tier 3 cities. Each reseller is a revenue engine. When they churn, Meesho loses not just their GMV but the entire network effect they bring.
@@ -145,35 +143,8 @@ Two statistical tests to validate findings beyond visual patterns:
 
 ---
 
-## How to Run
-
-**Generate data:**
-```bash
-pip install pandas numpy faker
-python generate_data.py
-```
-
-**Run EDA:**
-```bash
-pip install matplotlib seaborn
-python eda.py
-```
-
-**Run hypothesis tests:**
-```bash
-pip install scipy
-python hypothesis_testing.py
-```
-
 **SQL queries:** Import `meesho_resellers.csv` into SQL Server using SSMS Import Flat File wizard, then run queries from `sql_queries/` folder in order.
 
 **Dashboard:** Open `dashboard/meesho_churn_dashboard.pbix` in Power BI Desktop.
 
----
 
-## Author
-
-**Pratheebha Thiyagarajan**
-B.Tech Information Technology — Sri Krishna College of Engineering and Technology
-
-[LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/Prathee11)
